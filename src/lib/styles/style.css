@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --ebony: #5f634f;
+    --light-blue: #9bc4cb;
+    --mint-green: #cfebdf;
+    --nyanza: #e2fadbff;
+    --tea-green: #dbefbc;
+    --prussian-blue: #173753;
+    --picton-blue: #39a9db;
+    --charcoal: #1b4353;
+    --cosmic-latte: #f8f4e3;
+    --cerise: #e5446dff;
+    --onyx : #313638;
+    --text-color : #fff;
+    --radius-sm : 4px;
+    --radius-md : 6px;
+    --radius-lg : 8px;
+}
+
+body, *, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-weight: 400;
+    color: var(--text-color);
+    scroll-behavior: smooth;
+}
+body {
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: linear-gradient(135deg, #000000, #0e0d0f, #030303);  
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 3.4rem;
+}
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2.6rem;
+}
+h4 {
+    font-size: 2.2rem;
+}
+h5 {
+    font-size: 1.8rem;
+}
+h6 {
+    font-size: 1.4rem;
+}
+
+/* Screen Reader Utility */
+.sr-only {
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Button */
+button {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+/* Mobile */
+@media (min-width : 920px) {
+    body {
+        font-size: 13px;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2.6rem;
+    }
+    h3 {
+        font-size: 2.2rem;
+    }
+    h4 {
+        font-size: 1.8rem;
+    }
+    h5 {
+        font-size: 1.4rem;
+    }
+    h6 {
+        font-size: 1rem;
+    }
+}
